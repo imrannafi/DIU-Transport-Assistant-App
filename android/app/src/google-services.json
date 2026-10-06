@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1068395186786",
+    "firebase_url": "https://diutransport-77561-default-rtdb.firebaseio.com",
+    "project_id": "diutransport-77561",
+    "storage_bucket": "diutransport-77561.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068395186786:android:68f4c4344f7475f6669f3b",
+        "android_client_info": {
+          "package_name": "com.diu.transport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068395186786-uti9eaanodg5sgd6i4biusi21n604a4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBflpQWaQwM_C8jX-Naaxzkb1sxU62ROrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068395186786-uti9eaanodg5sgd6i4biusi21n604a4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

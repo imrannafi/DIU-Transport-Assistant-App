@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DIU Transport Assistant</string>
+    <string name="title_activity_main">DIU Transport Assistant</string>
+    <string name="package_name">com.diu.transport</string>
+    <string name="custom_url_scheme">com.diu.transport</string>
+</resources>

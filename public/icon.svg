@@ -1,0 +1,30 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    High Resolution DIU Transport Logo
+    Background: #10B981 (Emerald Green)
+    Rounding: 224px (Standard high-res rounded corner)
+  -->
+  <rect width="1024" height="1024" rx="224" fill="#10B981"/>
+  
+  <!-- Subtle accent to make it look modern -->
+  <rect x="212" y="212" width="600" height="600" rx="120" fill="white" fill-opacity="0.1"/>
+  
+  <!-- Logo Text -->
+  <g transform="translate(512, 512)">
+    <!-- Main DIU acronym -->
+    <text 
+      y="-10" 
+      text-anchor="middle" 
+      fill="white" 
+      style="font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 900; font-size: 220px; letter-spacing: -0.04em;"
+    >DIU</text>
+    
+    <!-- Subtitle TRANSPORT -->
+    <text 
+      y="150" 
+      text-anchor="middle" 
+      fill="white" 
+      style="font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 76px; letter-spacing: 0.25em;"
+    >TRANSPORT</text>
+  </g>
+</svg>

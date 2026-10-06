@@ -1,0 +1,12 @@
+{
+  "name": "DIU Transport Assistant",
+  "description": "Smart bus scheduling, real-time reminders, and detailed route information for DIU students.",
+  "requestFramePermissions": [
+    "notifications"
+  ],
+  "majorCapabilities": [
+    "Offline Schedule Access",
+    "Bus Reminders",
+    "Route Visualization"
+  ]
+}

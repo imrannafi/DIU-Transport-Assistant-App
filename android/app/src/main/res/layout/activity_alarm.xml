@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10B981"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🚨"
+            android:textSize="80sp" />
+
+        <TextView
+            android:id="@+id/alarm_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Bus Departing Now!"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/alarm_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Your bus is leaving Daffodil Smart City"
+            android:textColor="#E0F2F1"
+            android:textSize="18sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_dismiss"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="DISMISS"
+            android:textColor="#10B981"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_snooze"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#064E3B"
+            android:text="SNOOZE (5 MIN)"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
